@@ -359,25 +359,34 @@ text-align: center;
     .gtn-a{
         border-right: none;
         width: 100%;
-        margin-left: 150px;
+        
         margin-bottom: 50px;
     }
     .gtn-c{
         border-right: none;
         width: 100%;
-        margin-left: 150px;
+        justify-content: left;
         margin-bottom: 40px;
         
     }
 
     }
 @media screen and (max-width:750px){
+    .gtn-a{
+        width: 100%;
+        justify-content: left;
+    }
     .gtn-b{
         width: 100%;
-        margin-left: 150px;
+        justify-content: left;
+    }
+    .gtn-c{
+        justify-content: left;
+        width: 100%;
     }
     .gtn-d{
         width: 100%;
-        margin-left: 150px;
+        justify-content: left;
     }
 }
+    
