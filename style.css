@@ -375,6 +375,8 @@ text-align: center;
     .gtn-a{
         width: 100%;
         justify-content: left;
+        margin-left: 0;
+        padding-left: 0;
     }
     .gtn-b{
         width: 100%;
@@ -383,10 +385,21 @@ text-align: center;
     .gtn-c{
         justify-content: left;
         width: 100%;
+        margin-left: 0;
+        padding-left: 0;
     }
     .gtn-d{
         width: 100%;
         justify-content: left;
+    }
+    #ftn-2{
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    #ftn-3{
+        font-size: 15px;
+        margin-top: 10px;
+        padding-top: 10px;
     }
 }
     
