@@ -30,6 +30,7 @@ a {
     --bg-gray: #F3F3F3;
     --clr-black:#000000;
     --clr-dark:#000000;
+    --clr-white:rgba(255, 255, 255, 1);
     
 
   }
@@ -42,6 +43,7 @@ a {
     --Pastel-Turquoise:rgba(41,205,201,1);
     --clr-black:rgba(41,205,201,1);
     --clr-dark:rgba(255,255,255,1);
+    --clr-white:rgba(255, 255, 255, 1)
 }
 body{
     background-color: var(--bg-gray);
@@ -224,6 +226,14 @@ color:var(--clr-dark)
 .p-one{
 color:var(--clr-dark)
 }
+.search-1{
+    margin-left: 0;
+    background-color: var(--clr-white);
+    border-right: none;
+    
+    padding-bottom: 3px;
+    
+}
 .sec-2{
     display: flex;
     justify-content: space-between;
@@ -279,6 +289,8 @@ text-align: center;
     margin-left: 90px;
     margin-top: 20px;
     border: 10px;
+    
+    
 }
 
 /* MEDIA QUERIES FOR the NAV */
