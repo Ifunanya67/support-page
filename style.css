@@ -11,6 +11,7 @@ html {
   }
 a {
     text-decoration: none;
+    text-decoration-color: none;
   }
   
   ul {
@@ -29,6 +30,7 @@ a {
     --bg-gray: #F3F3F3;
     --clr-black:#000000;
     --clr-dark:#000000;
+    
 
   }
 /* dark theme/light theme toggle */
@@ -112,7 +114,7 @@ body{
 }
 .login-btn:hover{
     background-color: var(--light-Pastel-Turquoise);
-    color: var(--black);
+    color: var(--clr-dark);
 }
 .login-btn:active{
     background-color: var(--lighter-pastel-Turquoise);
@@ -125,6 +127,7 @@ body{
     font-size: 1.5rem;
     border-radius: 7px;
     border: 1px solid var(--Pastel-Turquoise);
+    color: var(--clr-dark);
 }
 .signup-btn:hover{
     color: var(--lighter-pastel-Turquoise);
