@@ -245,15 +245,21 @@ color:var(--clr-dark)
 .gtn-1{
     display: flex;
     justify-content: space-between;
-    margin-top: 50px;
+    margin-top: 40px;
+    
+    
+
+    
     
 }
 .gtn-2{
     display: flex;
     justify-content: space-between;
     margin-bottom: 100px;
-
     border-top: 2px solid black;
+
+    
+   
 }
 .ftn-1{
 text-align: center;
@@ -262,12 +268,14 @@ text-align: center;
     padding-left: 60px;
     border-right: 2px solid black;
     width: 50%;
+    padding-bottom: 30px;
     
 }
 .gtn-b{
     margin:auto;
     padding: 10px;
     padding-right: 90px;
+    padding-bottom: 90px;
     
 }
 .gtn-c{
